@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login/ Sign up</title>
+        <link rel="stylesheet" href="stylesheet/loginstyle.css">
+    </head>
+           
+    <body>
+        <div class="navigationbar"> 
+            <ul>
+                <a href="homepage.html">Home</a>
+                <a href="products.html">Product</a>
+                <a href="contact.html">Contact</a>
+                <a href="login.html">Login</a>
+            </ul>
+        </div>
+        <div class="container">
+            <from class="form form--hidden" id="login">
+                <h1 class="form__title">Login</h1>
+                <div class="form__message form__message--error"></div>
+                <div class="form__input-group">
+                    <input type="text" class="form__input" autofocus placeholder="Username or email">
+                    <div class="form__input-error-message"></div>
+                </div>
+                <div class="form__input-group">
+                    <input type="password" class="form__input" autofocus placeholder="Username or email">
+                    <div class="form__input-error-message"> </div>
+                </div>
+                <button class="form__button" type="submit">Log in</button>
+                <p class="form__text">
+                    <a href="#" class="form__link">Forgot your password?</a>
+                </p>
+                <p class="form__text">
+                    <a  class="form__link" href="./" id="linkCreateAccount">Don't have an account? Sign up!</a>
+                </p>
+            </from>
+            <from class="form" id="createAccount">
+                <h1 class="form__title">Create Account</h1>
+                <div class="form__message form__message--error"></div>
+                <div class="form__input-group">
+                    <input type="firstname" class="form__input" autofocus placeholder="first name">
+                    <div class="form__input-error-message"></div>
+                </div>
+                <div class="form__input-group">
+                    <input type="last name" class="form__input" autofocus placeholder="last name">
+                    <div class="form__input-error-message"> </div>
+                </div>
+                <div class="form__input-group">
+                    <input type="emailadress" class="form__input" autofocus placeholder="email adress">
+                    <div class="form__input-error-message"> </div>
+                </div>
+                <div class="form__input-group">
+                    <input type="password" class="form__input" autofocus placeholder="password">
+                    <div class="form__input-error-message"> </div>
+                </div>
+                <div class="form__input-group">
+                    <input type="password" class="form__input" autofocus placeholder="confirm password">
+                    <div class="form__input-error-message"> </div>
+                </div>
+                <button class="form__button" type="submit">Create Account</button>
+               
+                <p class="form__text">
+                    <a  class="form__link" href="./" id="linkLogIn">Alread have an ccount? Log in!</a>
+                </p>
+            </from>
+        </div>
+        <script src="login.js"></script>
+
+    </body>
+</html>
